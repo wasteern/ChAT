@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">RoboChat</h1>
+
+    <form class="auth-form" id="register-form">
+        <div class="auth-form-container">
+            <label for="login" class="auth-form-label">Login</label>
+            <input type="text" id="login" class="auth-form-input" placeholder="Login">
+
+            <label for="password" class="auth-form-label">Password</label>
+            <input type="text" id="password" class="auth-form-input" placeholder="Password">
+
+            <label for="confirm-password" class="auth-form-label">Confirm password</label>
+            <input type="text" id="confirmPassword" class="auth-form-input" placeholder="Confirm password">
+
+            <span id="response"></span>
+            <button type="submit" class="auth-form-btn">Register</button>
+            <p>Have an account? <a href="/login">Log in</a></p>
+        </div>
+    </form>
+
+    <script src="auth.js"></script>
+</body>
+</html>
